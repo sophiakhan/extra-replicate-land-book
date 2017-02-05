@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background: rgb(250, 250, 239);
+    font-family: 'Fira Mono', monospace;
+}
+
+.header-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    font-size: 10px;
+    background-color: rgb(250,250,239);
+}
+
+.nav-button {
+    display: inline;
+}
+
+.nav-button > a.nav-link:link,
+.nav-button > a.nav-link:visited {
+    color: black;
+    padding: 5px 5px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*.nav-button > a.nav-link:hover,
+.nav-button > a.nav-link:active {
+    color: black;
+}*/
