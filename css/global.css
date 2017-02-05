@@ -11,6 +11,26 @@ body {
     font-family: 'Fira Mono', monospace;
 }
 
+.container {
+    /*max-width: 1000px;*/
+    margin: 0 auto;
+}
+
+.row {
+    /*border: 1px solid red;*/
+    display: flex;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    /*border: 1px solid green;*/
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
 .header-nav {
     list-style-type: none;
     margin: 0;
@@ -33,7 +53,57 @@ body {
     display: inline-block;
 }
 
-/*.nav-button > a.nav-link:hover,
-.nav-button > a.nav-link:active {
+#page-title {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 8px;
+}
+
+.categories {
+    list-style-type: none;
+    margin-top: 200px;
+    padding: 0;
+    text-align: left;
+    font-size: 10px;
+}
+
+.cat-button > a.cat-link:link,
+.cat-button > a.cat-link:visited {
     color: black;
-}*/
+    text-decoration: none;
+    text-align: left;
+}
+
+.column-1 {
+    flex: 1;
+}
+
+.column-10 {
+    flex: 10;
+}
+
+.column-5 {
+    flex: 5;
+}
+
+#sale {
+    color: darkred;
+}
+
+#men-shoes {
+    background: url(../img/men-shoe.jpg);
+    background-size: cover; 
+    background-position: 50% 60%;
+    text-align: left;
+    font-weight: bold;
+    padding: 180px;
+}
+
+#women-shoes {
+    background: url(../img/women-shoe.jpg);
+    background-size: cover;
+    background-position: 30% 60%;
+    text-align: left;
+    font-weight: bold;
+    padding: 180px;
+}
